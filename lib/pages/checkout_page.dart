@@ -281,7 +281,9 @@ class _CheckoutPageState extends State<CheckoutPage> {
           ),
           isLoading
               ? Container(
-                  margin: EdgeInsets.only(bottom: 30), child: LoadingButton())
+                  margin: EdgeInsets.only(bottom: 30),
+                  child: LoadingButton(),
+                )
               : Container(
                   height: 50,
                   width: double.infinity,
